@@ -4,3 +4,4 @@ deployment:
     - export DEPLOYPATH=/home/exchangeefutbol/public_html
     - ./public $DEPLOYPATH
     - ./tokenlite_app $DEPLOYPATH
+    
