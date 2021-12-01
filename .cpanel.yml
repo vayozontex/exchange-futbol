@@ -2,3 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/exchangeefutbol/public_html
+    - /public $DEPLOYPATH
+    - /tokenlite_app style.css $DEPLOYPATH
